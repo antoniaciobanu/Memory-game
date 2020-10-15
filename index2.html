@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Memory Game</title>
+        <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <h1 class="page-title">Mix-And-Match</h1>
+        <div class="overlay-text visible">
+            Click to Start
+          </div>
+          <div id="game-over-text" class="overlay-text">
+            GAME OVER
+            <span class="overlay-text-small">Click to Restart</span>
+          </div>
+          <div id="victory-text" class="overlay-text">
+            VICTORY
+            <span class="overlay-text-small">Click to Restart</span>
+          </div>
+        <div class="game-container">
+            <div class="game-info-container">
+                <div class="game-info">
+                    Time<span id="time-remaining">100</span>
+                </div>
+                <div class="game-info">
+                    Flips<span id="flips">0</span>
+                </div>
+            </div>
+            <div class="card">
+
+                <div class="card-front"><img class="card-value" src="imgs/turkey.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+            </div>
+            <div class="card">
+                <div class="card-front"><img class="card-value" src="imgs/bee.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+                
+            </div>
+            <div class="card"> 
+                <div class="card-front"><img class="card-value" src="imgs/bear.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+               
+            </div>
+            <div class="card">
+                <div class="card-front"><img class="card-value" src="imgs/crow.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+                
+            </div>
+            <div class="card">
+                <div class="card-front"><img class="card-value" src="imgs/deer.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+               
+            </div>
+            <div class="card">
+                <div class="card-front"><img class="card-value" src="imgs/hedgehog.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+                
+            </div>
+            <div class="card">
+                <div class="card-front"><img class="card-value" src="imgs/owl.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+                
+            </div>
+            <div class="card">
+                <div class="card-front"><img class="card-value" src="imgs/fox.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+                
+            </div>
+            <div class="card">
+                <div class="card-front"><img class="card-value" src="imgs/fox.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+                
+            </div>
+            <div class="card">
+                <div class="card-front"><img class="card-value" src="imgs/hedgehog.png"></div> 
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+                
+            </div>
+            <div class="card">
+                <div class="card-front"><img class="card-value" src="imgs/deer.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+                
+            </div>
+            <div class="card">
+                <div class="card-front"><img class="card-value" src="imgs/crow.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+                
+            </div>
+            <div class="card">
+                <div class="card-front"><img class="card-value" src="imgs/turkey.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+                
+            </div>
+            <div class="card"> 
+                <div class="card-front"><img class="card-value" src="imgs/owl.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+               
+            </div>
+            <div class="card" >
+                <div class="card-front"><img class="card-value" src="imgs/bee.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+                
+            </div>
+            <div class="card"> 
+                <div class="card-front"><img class="card-value" src="imgs/bear.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+               
+            </div>
+             <div class="card"> 
+                <div class="card-front"><img class="card-value" src="imgs/horse.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+               
+            </div>
+             <div class="card"> 
+                <div class="card-front"><img class="card-value" src="imgs/horse.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+               
+            </div>
+             <div class="card"> 
+                <div class="card-front"><img class="card-value" src="imgs/ladybug.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+               
+            </div>
+             <div class="card"> 
+                <div class="card-front"><img class="card-value" src="imgs/ladybug.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+               
+            </div>
+             <div class="card"> 
+                <div class="card-front"><img class="card-value" src="imgs/rabbit.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+               
+            </div>
+             <div class="card"> 
+                <div class="card-front"><img class="card-value" src="imgs/rabbit.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+               
+            </div>
+             <div class="card"> 
+                <div class="card-front"><img class="card-value" src="imgs/raccoon.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+               
+            </div>
+             <div class="card"> 
+                <div class="card-front"><img class="card-value" src="imgs/raccoon.png"></div>
+                <div class="card-back"><img class="wind" src="imgs/wind.png"></div>
+               
+            </div>
+            
+        </div>
+        <div >
+            <a href="index.html" class="next-level" >Easy Level</a>
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+    </html>
