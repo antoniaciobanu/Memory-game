@@ -102,6 +102,17 @@
     flex-direction: column;
     animation: overlay-grow 500ms forwards;
   }
+.next-level{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #FBE6E2;
+    font-family: "Crafter";
+    
+}
 
 @keyframes overlay-grow {
     from {
